@@ -31,7 +31,7 @@ function draw(){
     background(0);
     Engine.update(engine);
     rectMode(CENTER);
-    rect(ground.position.x,ground.position.y,400,20);
+    rect(ground.position.x,ground.position.y,200,20);
 
     ellipseMode(RADIUS);
     ellipse(ball.position.x, ball.position.y, 20, 20);
